@@ -27,11 +27,11 @@ namespace Quest
             }
             else if (chance < 50)
             {
-                Health = "low";
+                Health = "mid";
             }
             else
             {
-                Health = "mid";
+                Health = "low";
             }
         }
     }   

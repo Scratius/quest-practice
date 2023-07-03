@@ -15,6 +15,26 @@ namespace Quest
         private Trap trap;
         private Spider spider;
 
+
+        //пока конвёртед и инренж не будет тру, пользователь не сможет продолжить
+        static int GetIntInRange(int optionsNumber)
+        {
+            string input = Console.ReadLine();
+            int number = -1;
+            bool isConverted = int.TryParse(input, out number);
+            bool isInRange = number >= 1 && number <= optionsNumber;
+
+            while (!isConverted || !isInRange)
+            {
+                Console.WriteLine("Неверная опция, попробуй ещё раз");
+                input = Console.ReadLine();
+                isConverted = int.TryParse(input, out number);
+                isInRange = number >= 1 && number <= optionsNumber;
+            }
+
+            return number;
+        }
+
         public void Start()
         {
             chest = new Chest();
@@ -24,15 +44,17 @@ namespace Quest
             spider = new Spider();
 
             Console.WriteLine("Вы зашли в храм. Вам нужно найти сокровище.");
-            Console.WriteLine("Вы находитесь в первой комнате. В комнате есть две двери, слева и справа, и левая дверь излучает странный свет. \nВыберите дверь: налево(1) или направо(2)?");
-            string input = Console.ReadLine();
+            Console.WriteLine("Вы находитесь в первой комнате. В комнате есть две двери, слева и справа, и левая дверь излучает странный свет. \nВыберите дверь: налево (1) или направо (2)?");
+            int input = GetIntInRange(2);
 
-            if (input == "1")
+            if (input == 1)
             {
                 Console.WriteLine("В комнате был светящийся камень, на котором высечены цифры 1738\nКомната выглядит пустой, вы можете изучить ее(1) или уйти(2)");
-                input = Console.ReadLine();
+                input = GetIntInRange(2);
 
-                if (input == "1")
+                
+
+                if (input == 1)
                 {
                     Console.WriteLine("Вы нашли ключ! После вы вышли из комнаты, так как больше ничего не нашли");
                     player.HasKey = true;
@@ -44,14 +66,14 @@ namespace Quest
             }
 
             Console.WriteLine("Вы зашли в левую комнату, полную ловушек, и дверь за вами закрылась. Вы больше не можете ее открыть, но на стене вы увидели странные кирпичи с числами 32 11 53 10 21, которые можно нажимать\nПопытаться решить головоломку(1) или попробовать сразу пройти ловушки(2)?");
-            input = Console.ReadLine();
+            input = GetIntInRange(2);
 
-            if (input == "1")
+            if (input == 1)
             {
                 Console.WriteLine("Решение нужно вводить так: ** ** ** ** **");
-                input = Console.ReadLine();
+                string iinput = Console.ReadLine();
 
-                if (puzzle.Solve(input))
+                if (puzzle.Solve(iinput))
                 {
                     trap.IsDisabled = true;
                     Console.WriteLine("Похоже, что ловушки отключились! Вы можете пройти дальше.");
@@ -84,14 +106,14 @@ namespace Quest
             }
 
             Console.WriteLine("В следующей комнате вы нашли сундук с кодовым 4-хзначным замком\nВвести код(1) или пойти дальше(2)?");
-            input = Console.ReadLine();
+            input = GetIntInRange(2);
 
-            if (input == "1")
+            if (input == 1)
             {
                 Console.WriteLine("Введите код");
-                input = Console.ReadLine();
+                string ninput = Console.ReadLine();
 
-                if (chest.Unlock(input))
+                if (chest.Unlock(ninput))
                 {
                     Console.WriteLine("Код верный! Внутри лежало противоядие.");
                     player.HasAntidote = true;
@@ -104,9 +126,9 @@ namespace Quest
             }
 
             Console.WriteLine("В следующей комнате было снова 2 двери, но одну охранял огромный паук\nСразиться с пауком(1) или пойти в другую дверь(2)?");
-            input = Console.ReadLine();
+            input = GetIntInRange(2);
 
-            if (input == "1")
+            if (input == 1)
             {
                 if (spider.Fight(player.HasAntidote, player.Health))
                 {

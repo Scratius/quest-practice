@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{F0F0A411-3C29-45CE-8BEF-7823BE522389}|Default">
+  <MonoDevelop.Ide.ItemProperties.Quest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quest/Game.cs">
+    <Files>
+      <File FileName="Quest/Program.cs" Line="1" Column="1" />
+      <File FileName="Quest/Game.cs" Line="20" Column="52" />
+      <File FileName="Quest/Main_Player.cs" Line="1" Column="1" />
+      <File FileName="Quest/Puzzle.cs" Line="1" Column="1" />
+      <File FileName="Quest/Trap.cs" Line="18" Column="10" />
+      <File FileName="Quest/Spider.cs" Line="1" Column="1" />
+      <File FileName="Quest/Chest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Quest">
+            <Node name="Quest">
+              <Node name="Game.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
