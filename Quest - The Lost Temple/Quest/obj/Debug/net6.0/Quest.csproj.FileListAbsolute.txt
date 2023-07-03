@@ -1,0 +1,30 @@
+D:\C#\Quest\Quest\bin\Debug\net6.0\Quest.exe
+D:\C#\Quest\Quest\bin\Debug\net6.0\Quest.deps.json
+D:\C#\Quest\Quest\bin\Debug\net6.0\Quest.runtimeconfig.json
+D:\C#\Quest\Quest\bin\Debug\net6.0\Quest.dll
+D:\C#\Quest\Quest\bin\Debug\net6.0\Quest.pdb
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.csproj.AssemblyReference.cache
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.AssemblyInfoInputs.cache
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.AssemblyInfo.cs
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.csproj.CoreCompileInputs.cache
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.dll
+D:\C#\Quest\Quest\obj\Debug\net6.0\refint\Quest.dll
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.pdb
+D:\C#\Quest\Quest\obj\Debug\net6.0\Quest.genruntimeconfig.cache
+D:\C#\Quest\Quest\obj\Debug\net6.0\ref\Quest.dll
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\bin\Debug\net6.0\Quest.exe
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\bin\Debug\net6.0\Quest.deps.json
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\bin\Debug\net6.0\Quest.runtimeconfig.json
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\bin\Debug\net6.0\Quest.dll
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\bin\Debug\net6.0\Quest.pdb
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.csproj.AssemblyReference.cache
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.AssemblyInfoInputs.cache
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.AssemblyInfo.cs
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.csproj.CoreCompileInputs.cache
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.dll
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\refint\Quest.dll
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.pdb
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\Quest.genruntimeconfig.cache
+C:\Users\demid\OneDrive\Рабочий стол\Quest22\Quest\obj\Debug\net6.0\ref\Quest.dll
