@@ -48,7 +48,7 @@ namespace Quest
             Console.WriteLine("Ты смутно помнишь где ты. .. даже кто ты...");
             Console.ReadLine();
             Console.WriteLine("Тело сдавлено, однако твой мозг уже подает сигналы к жизни.");
-            Console.WriteLine("Он говорить, ремень...");
+            Console.WriteLine("Он говорит, ремень...");
             Console.ReadLine();
             Console.WriteLine("Давит не все тело, а именно грудная клетка, машинально ты бьешь куда-то ниже бедра..");
             Console.WriteLine("Щелчок и ты летишь куда-то вниз. ..");
