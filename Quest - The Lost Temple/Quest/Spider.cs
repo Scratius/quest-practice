@@ -8,16 +8,17 @@ namespace Quest
 {
     internal class Spider
     {
-        public bool Fight(bool hasAntidote, string health)
+        //Сражение с пауком
+        public bool Fight(bool hasAntidote, string health) //функция определяющая победил ли персонаж паука
         {
             int chance;
             int n = 100;
-            if (health == "mid")
+            if (health == "mid") //если персонаж был ранен то уменьшаем шансы на победу
             {
                 n = 80;
             }
 
-            if (hasAntidote && health == "full")
+            if (hasAntidote && health == "full") //если у персонажа есть антидот и полное здоровье, шансы на победу большие
             {
                 chance = new Random().Next(n);
                 if (chance > 10)

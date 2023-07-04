@@ -14,9 +14,10 @@ namespace Quest
         public Chest()
         {
             Random rnd = new Random();
-            _code = $"{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}";
+            _code = $"{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}"; //Рандомная генерация ключа
         }
 
+        //Проверка кода для открытия сундука
         public bool Unlock(string code)
         {
             if (code == _code)

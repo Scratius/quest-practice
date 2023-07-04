@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\Quest.csproj": {}
+    "C:\\Users\\demid\\quest-practice\\Quest - The Lost Temple\\Quest\\Quest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\Quest.csproj": {
+    "C:\\Users\\demid\\quest-practice\\Quest - The Lost Temple\\Quest\\Quest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\Quest.csproj",
+        "projectUniqueName": "C:\\Users\\demid\\quest-practice\\Quest - The Lost Temple\\Quest\\Quest.csproj",
         "projectName": "Quest",
-        "projectPath": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\Quest.csproj",
+        "projectPath": "C:\\Users\\demid\\quest-practice\\Quest - The Lost Temple\\Quest\\Quest.csproj",
         "packagesPath": "C:\\Users\\demid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\obj\\",
+        "outputPath": "C:\\Users\\demid\\quest-practice\\Quest - The Lost Temple\\Quest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demid\\AppData\\Roaming\\NuGet\\NuGet.Config",

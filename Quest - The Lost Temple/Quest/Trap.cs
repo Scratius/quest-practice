@@ -17,7 +17,8 @@ namespace Quest
             Health = "full";
         }
 
-        public void Pass()
+        //проверка ловушки
+        public void Pass() //Прохождение ловушек
         {
             int chance = new Random().Next(100);
 
@@ -27,11 +28,11 @@ namespace Quest
             }
             else if (chance < 50)
             {
-                Health = "low";
+                Health = "mid";
             }
             else
             {
-                Health = "mid";
+                Health = "low";
             }
         }
     }   

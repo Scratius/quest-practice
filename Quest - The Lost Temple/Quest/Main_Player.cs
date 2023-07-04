@@ -13,6 +13,7 @@ namespace Quest
         public bool HasKey { get; set; }
         public string Health { get; set; }
 
+        //Конструктор персонажа
         public Main_Player()
         {
             HasAntidote = false;
