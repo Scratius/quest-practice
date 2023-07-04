@@ -9,7 +9,13 @@ namespace Quest
 {
     internal class Chest
     {
-        private string _code = "1738";
+        public static string _code;
+
+        public Chest()
+        {
+            Random rnd = new Random();
+            _code = $"{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}";
+        }
 
         public bool Unlock(string code)
         {

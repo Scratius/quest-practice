@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest22\\Quest\\Quest.csproj",
+      "projectUniqueName": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\Quest.csproj",
       "projectName": "Quest",
-      "projectPath": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest22\\Quest\\Quest.csproj",
+      "projectPath": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\Quest.csproj",
       "packagesPath": "C:\\Users\\demid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest22\\Quest\\obj\\",
+      "outputPath": "C:\\Users\\demid\\OneDrive\\Рабочий стол\\Quest - The Lost Temple\\Quest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\demid\\AppData\\Roaming\\NuGet\\NuGet.Config",
