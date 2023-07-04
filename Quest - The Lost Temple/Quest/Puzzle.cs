@@ -11,6 +11,7 @@ namespace Quest
         private string _answer = "10 11 21 32 53";
         public int count_of_trying = 0;
 
+        //проверка решения головоломки
         public bool Solve(string answer)
         {
             if (answer == _answer)

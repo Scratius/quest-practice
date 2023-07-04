@@ -17,6 +17,7 @@ namespace Quest
             Health = "full";
         }
 
+        //проверка ловушки
         public void Pass()
         {
             int chance = new Random().Next(100);

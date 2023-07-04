@@ -8,6 +8,7 @@ namespace Quest
 {
     internal class Spider
     {
+        //Сражение с пауком
         public bool Fight(bool hasAntidote, string health)
         {
             int chance;
