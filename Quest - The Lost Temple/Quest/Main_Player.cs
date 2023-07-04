@@ -8,10 +8,10 @@ namespace Quest
 {
     internal class Main_Player
     {
-        public bool HasAntidote { get; set; }
-        public bool HasRope { get; set; }
-        public bool HasKey { get; set; }
-        public string Health { get; set; }
+        public bool HasAntidote { get; set; } //Антидот
+        public bool HasRope { get; set; }     //Веревка
+        public bool HasKey { get; set; }      //Ключ
+        public string Health { get; set; }    //Здоровье
 
         //Конструктор персонажа
         public Main_Player()
