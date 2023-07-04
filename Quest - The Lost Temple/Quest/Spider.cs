@@ -9,11 +9,11 @@ namespace Quest
     internal class Spider
     {
         //Сражение с пауком
-        public bool Fight(bool hasAntidote, string health)
+        public bool Fight(bool hasAntidote, string health) //функция определяющая победил ли персонаж паука
         {
             int chance;
             int n = 100;
-            if (health == "mid")
+            if (health == "mid") //если персонаж был ранен то уменьшаем шансы на победу
             {
                 n = 80;
             }
