@@ -8,7 +8,7 @@ namespace Quest
 {
     internal class Puzzle
     {
-        private string _answer = "10 11 21 32 53";
+        private string _answer = "10 11 21 32 53"; //ответ на головоломку
         public int count_of_trying = 0;
 
         //проверка решения головоломки
