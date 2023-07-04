@@ -17,7 +17,7 @@ namespace Quest
         static bool hasTreasure = false;
         static int roomNumber = 1;
 
-        public void Start()
+        public void Start() //Запуск квеста
         {
             chest = new Chest();
             player = new Main_Player();
@@ -48,7 +48,7 @@ namespace Quest
             Console.WriteLine("Ты смутно помнишь где ты. .. даже кто ты...");
             Console.ReadLine();
             Console.WriteLine("Тело сдавлено, однако твой мозг уже подает сигналы к жизни.");
-            Console.WriteLine("Он говорить, ремень...");
+            Console.WriteLine("Он говорит, ремень...");
             Console.ReadLine();
             Console.WriteLine("Давит не все тело, а именно грудная клетка, машинально ты бьешь куда-то ниже бедра..");
             Console.WriteLine("Щелчок и ты летишь куда-то вниз. ..");
@@ -84,7 +84,7 @@ namespace Quest
         }
 
         //Игровые сцены внутри храма
-        public static void ActionTempleHall()
+        public static void ActionTempleHall() //1
         {
             Console.Clear();
             Console.WriteLine("Вы зашли в храм. Вам нужно найти сокровище, чтобы открыть двери храма.");
@@ -124,13 +124,13 @@ namespace Quest
             }
         }
 
-        public void ActionTempleRoom2()
+        public void ActionTempleRoom2() //2
         {
             Console.Clear();
             Console.WriteLine("Ты находишься в пространстве каменного зала");
             Console.WriteLine("Перед тобой монумент из-за которой выглядывает свет");
             Console.WriteLine("Вы заглядываете за него");
-            Console.WriteLine($"В комнате был светящийся камень, на котором высечены цифры {Chest._code}. Комната выглядит пустой.\n 1) Изучить ее\n 2) Уйти");
+            Console.WriteLine($"В комнате был светящийся камень, на котором высечены цифры {Chest._code}. Желательно их запомнить, наверняка пригодятся.\nКомната выглядит пустой.");
             Console.WriteLine("Доступные действия: ");
             Console.WriteLine("1. Изучить комнату");
             Console.WriteLine("2. Вернуться назад");
@@ -153,7 +153,7 @@ namespace Quest
 
         }
 
-        public void ActionTempleRoom3()
+        public void ActionTempleRoom3() //3
         {
             Console.Clear();
             Console.WriteLine("Открыв дверь ты попал в маленькое помещение, будто чулан");
@@ -215,7 +215,7 @@ namespace Quest
             }
         }
 
-        public void ActionTempleRoom4()
+        public void ActionTempleRoom4() //4
         {
             Console.Clear();
             Console.WriteLine("В этой комнате все украшено древними жуткими орнаментами");
@@ -258,7 +258,7 @@ namespace Quest
             }
         }
 
-        public void ActionTempleRoom5()
+        public void ActionTempleRoom5() //5
         {
             Console.Clear();
             Console.WriteLine("Как только ты вошел в комнату, ты сразу почувствовал себя неуютно");
@@ -304,7 +304,7 @@ namespace Quest
                 
         }
 
-        public void ActionTempleRoom6()
+        public void ActionTempleRoom6() //6
         {
             Console.Clear();
 
@@ -354,7 +354,7 @@ namespace Quest
             }
         }
 
-        //функция для завершения игры в следствие смерти
+        //Функция для завершения игры в следствие смерти
         static void Death()
         {
             Console.WriteLine("\n████████╗██╗░░██╗███████╗  ███████╗███╗░░██╗██████╗░\n╚══██╔══╝██║░░██║██╔════╝  ██╔════╝████╗░██║██╔══██╗\n░░░██║░░░███████║█████╗░░  █████╗░░██╔██╗██║██║░░██║\n░░░██║░░░██╔══██║██╔══╝░░  ██╔══╝░░██║╚████║██║░░██║\n░░░██║░░░██║░░██║███████╗  ███████╗██║░╚███║██████╔╝\n░░░╚═╝░░░╚═╝░░╚═╝╚══════╝  ╚══════╝╚═╝░░╚══╝╚═════╝░");
@@ -363,7 +363,7 @@ namespace Quest
             Environment.Exit(0);
         }
 
-        //пока конвёртед и инренж не будет тру, пользователь не сможет продолжить
+        //Проверка на неправильный ввод. Пока конвёртед и инренж не будет тру, пользователь не сможет продолжить
         static int GetIntInRange(int optionsNumber)
         {
             string input = Console.ReadLine();

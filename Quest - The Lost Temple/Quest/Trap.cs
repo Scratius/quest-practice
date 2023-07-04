@@ -18,7 +18,7 @@ namespace Quest
         }
 
         //проверка ловушки
-        public void Pass()
+        public void Pass() //Прохождение ловушек
         {
             int chance = new Random().Next(100);
 

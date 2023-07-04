@@ -18,7 +18,7 @@ namespace Quest
                 n = 80;
             }
 
-            if (hasAntidote && health == "full")
+            if (hasAntidote && health == "full") //если у персонажа есть антидот и полное здоровье, шансы на победу большие
             {
                 chance = new Random().Next(n);
                 if (chance > 10)
